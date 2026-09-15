@@ -72,4 +72,4 @@ for tool_call in ai_message.tool_calls:  #go through every tool call gemini requ
         messages.append(tool_message2)
 
 result = llm_with_tools.invoke(messages).content     
-print(result.content)
+print(result)
